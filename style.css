@@ -6,11 +6,24 @@ h1 {
     font-weight: 700;
     color: rgb(14, 14, 15);
 }
+.img-thumbnail {border-style: none;}
 
 .img-thumbnail{
   float: left;
-  padding: 20px 20px 20px 20px;}
-  /* border-radius: 155px; */
+  padding: 20px 20px 20px 20px;
+}
+.portfoilo-img-thumbnail {border-style: none;}
+
+.portfoilo-img-thumbnail{
+  float: left;
+  padding: 20px 20px 20px 20px;
+}
+
+.p1{
+  color: rgb(0, 0, 255);
+  float: left;
+  padding: 50px 50px 20px 20px;
+}
 
   #li{
     /* font-family: 'Montserrat', sans-serif; */
