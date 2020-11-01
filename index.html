@@ -1,68 +1,376 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bart Cusick's portfolio page</title>
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <!-- //Navigation Buttons// -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <span class="navbar-brand mb-1 h1">Bart Cusick</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- End Nav -->
-    <!-- //Body//-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page-header">
-                    <h1>About Me</h1>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Bart's Portfolio Page</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/body.css">
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger text-white" href="#page-top">BartWork!</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                    <a class="btn btn-outline-light btn-social mx-0" href="https://github.com/bartcusick"><i class="fab fa-github" alt="GitHub Icon"></i></a><a class="btn btn-outline-light btn-social mx-0" href="https://www.linkedin.com/in/bartcusick"><i class="fab fa-fw fa-linkedin-in" alt="Linkedin Icon" ></i></a><a class="btn btn-outline-light btn-social mx-0" href="https://www.twitter.com/bartcusick?lang=en"><i class="fab fa-fw fa-twitter" alt="Twitter Icon"></i></a><a class="btn btn-outline-light btn-social mx-0" href="https://bartcusick.com"><i class="fas fa-bold"></i></a><a class="btn btn-outline-light btn-social mx-0" href="https://bartcusick.blogspot.com"><i class="fas fa-blog" alt="Blog Icon"></i></a>  
                 </div>
-                <div class="row">
-                    <div class="col-md-9">
-                        <img src="350x350_0.jpg" alt="350x350_0.jpg" class="img-thumbnail">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-                            nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                            felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                            non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-                            luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-                            neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                            dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                            posuere sem congue a.
-                          </p>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center bgImage">
+            <div class="container d-flex align-items-center flex-column">
+               
+                <!-- <img class="bg" src="assets/img/portfolio/background.jpg" alt="artistic background image"> -->
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/bird_Logo.svg" alt="Bird Logo Image">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">BART CUSICK</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div> 
+                <img class ="bgImage" src="assets/img/portfolio/background.jpg"></img>
+                <!-- Masthead Subheading-->
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Full Stack Web Developer - Graphic Artist - Web Designer - Illustrator</p>
+            </div>
+            <div class="bg"></div>
+        </header>
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Items-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/birdBikeMap.jpg" alt="Outdoor Adventure Planner"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/coding_Quiz_Challenge.jpg" alt="Dr. Robotnik"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/KokyuPoster.jpg" alt="KOKU BBQ/ Na'Mean"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/school1.jpg" alt="Controller"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/NWI_1.jpg" alt="Locked Safe"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/IceCream_n_40s_bg.jpg" alt="Submarine"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Modal-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Outdoor Adventure Planner</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/birdBikeMap.jpg" alt="Outdoor Adventure Planner"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">This is the first group project for the Full Stack developer BootCamp course at UNC. We Created an app that uses 3 different API's to locate all of the Bike trails and weather date for a selected area. Then display the data to help you plan out your next Bike Trail adventure.</p>
+                                    <button class="btn btn-primary" href="https://bartcusick.github.io/bootCamp_Project_1-_Outdoor-Adventure-Planner/" onclick=" relocate_Project1()"><i class="fab fa-github"></i> Launch Project</button>
+                                    <button class="btn btn-primary" href="https://github.com/bartcusick/bootCamp_Project_1-_Outdoor-Adventure-Planner" onclick=" relocate_GitHub1()"><i class="fab fa-github"></i> View GitHub Page</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <!-- Bootstrap JavaScript CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Coding Quiz Challenge</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/coding_Quiz_Challenge.jpg" alt="Dr. Robotnik"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">A timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.</p>
+                                    <button class="btn btn-primary" href="https://bartcusick.github.io/bootCamp_Project_1-_Outdoor-Adventure-Planner/" onclick=" relocate_Project2()"><i class="fab fa-github"></i> Launch Project</button>
+                                    <button class="btn btn-primary" href="https://github.com/bartcusick/bootCamp_Project_1-_Outdoor-Adventure-Planner" onclick=" relocate_GitHub2()"><i class="fab fa-github"></i> View GitHub Page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">KOKU BBQ/ Na'Mean</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/KokyuPoster.jpg" alt="KOKU BBQ/ Na'Mean"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">This is an illustration I made for a Kickstarter campaign for the Opening Of KOKYU's New restaurant called Na/Mean in Durham NC. I also painted all of their Food Trucks as well as designed logos and painted large scale murals in their reasturaunts. Their food is amazing!</p>
+                                    <button class="btn btn-primary" href="http://www.kokyubbq.com/" onclick=" relocate_Kokyu()"><i class="fab fa-github"></i> Launch Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">www.bartcusick.com</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/school1.jpg" alt="image of a gothic church"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">A portfolio site that i created to display Illustrations and Designs I have worked on. There are samples of some of my Illustrations, Packaging designs, Murals, Paintings, Web Designs and all sorts of other things.</p>
+                                    <button class="btn btn-primary" href="https://bartcusick.com" onclick=" relocate_BartCusick()">Visit Site</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">GCFLearnFree.org</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/NWI_1.jpg" alt="image of gcflearnfree.org"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Flash Developer/ Graphic Designer at GCFLearnFree.org. I was responsible for Logo, Website, Print, and Corperate Branding designs for GCFLearnFree.org, GCFGlobal and GIENC. I also worked on the EveryDayLife interactive E-learning courses for Adult literacy and interactive learning games.</p>
+                                    <button class="btn btn-primary" href="https://gcflearnfree.org" onclick=" relocate_Gcf()">Visit Site</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Random IceCream</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/IceCream_n_40s_bg.jpg" alt="Random"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Here is a section for random stuff I havn't added yet.</p>
+                                    <button class="btn btn-primary" href="https://bartcusick.github.io/bootCamp_Project_1-_Outdoor-Adventure-Planner/" onclick=" relocate_Project2()"><i class="fab fa-github"></i> Launch Project</button>
+                                    <button class="btn btn-primary" href="https://github.com/bartcusick/bootCamp_Project_1-_Outdoor-Adventure-Planner" onclick=" relocate_GitHub2()"><i class="fab fa-github"></i> View GitHub Page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <p class="pre-wrap masthead-subheading text-left font-weight-light mb-0">A Full-Stack Web Developer/ Artist/ Illustrator/ Motion Graphics/ Interactive designer with a great imagination. A humorous and open-minded personality has always made it easy to communicate and work with others. Eager to learn, extremely adaptable, and quick to pick up new tasks. Always met customer deadlines. Innovative, imaginative, multimedia oriented and can draw really cool monsters.
 
+                    <a class ="text-center text-white" href="https://github.com/bartcusick">https://github.com/bartcusick</a>
+                    <a class ="text-white" href="http://www.linkedin.com/in/bartcusick">http://www.linkedin.com/in/bartcusick</a>
+                    <a class ="text-white" href="http://bartcusick.com">http://bartcusick.com</a>
+                    <a class ="text-white" href="http://bartcusick.blogspot.com">http://bartcusick.blogspot.com</a>
+                    <a class ="text-white" href="http://twitter.com/bartcusick">http://twitter.com/bartcusick</a>
+                    <a class ="text-white" href="https://www.instagram.com/bartcusick/">https://www.instagram.com/bartcusick/</a>
+                    <a class ="text-white" href="http://friendfeed.com/bartcusick">http://friendfeed.com/bartcusick</a>
+                    <a class ="text-white" href="http://www.facebook.com/bartcusick">http://www.facebook.com/bartcusick</a>
+
+                    <a class="btn btn-secondary text-primary" href="assets/img/Bart_Cusick_Resume.pdf" download="Bart_Cusick_Resume.pdf"><i class="fas fa-file-download"></i> Resume</a>
+                </p>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="text-muted">Phone</div>
+                            <div class="lead font-weight-bold">919-673-4578</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:bartcusick@gmail.com">bartcusick@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">Current LOCATION</h4>
+                        <p class="pre-wrap lead mb-0">Garner, NC 27529</p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://github.com/bartcusick"><i class="fab fa-github" alt="GitHub Icon"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/bartcusick"><i class="fab fa-fw fa-linkedin-in" alt="Linkedin Icon" ></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/bartcusick?lang=en"><i class="fab fa-fw fa-twitter" alt="Twitter Icon"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://bartcusick.com"><i class="fas fa-bold"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://bartcusick.blogspot.com"><i class="fas fa-blog" alt="Blog Icon"></i></a>  
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="mb-4">ABOUT BARTWORK!</h4>
+                        <p class="pre-wrap lead mb-0">Web Development/ Graphic Design/ Illustration/ Motion Graphics/ Mural Art/ Customer Service </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small class="pre-wrap">Copyright © BartWork! 2020 </small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
